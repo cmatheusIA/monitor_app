@@ -1,0 +1,45 @@
+gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+.cache/
+
+# Segredos e configuração local
+.env
+*.env
+.env.*
+!.env.example
+
+#folders
+docs/
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Windows / DLLs
+*.dll
+*.exe
+install-service.bat.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# SDD progress
+.superpowers/
